@@ -1,4 +1,4 @@
-package service;
+package com.object.dog.service;
 
 import com.object.dog.model.Dog;
 import com.object.dog.repository.DogRepository;
