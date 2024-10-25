@@ -2,7 +2,7 @@ package com.object.dog.model;
 
 import jakarta.persistence.*;
 
-@Entity
+@Entity(name = "dogs")
 public class Dog {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
